@@ -159,6 +159,5 @@ While this experiment provides strong evidence, it has certain limitations:
 2. Subjective Scoring: While clear criteria were established, the evaluation of responses relied on a single researcher's subjective scoring. Future experiments could benefit from inter-rater reliability by involving multiple evaluators.
 3. Limited Scenarios: Only four scenarios were tested. Expanding to a wider range of tasks could further validate the findings.
 Future research could explore the impact of specific prompt components (e.g., what is the most impactful part: role, format, or context?), the effectiveness of few-shot prompting in greater detail, or the performance of LLMs with dynamically generated prompts
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/6f07f4bb-ac06-4505-93f0-74263d83f47d" />
 
 # RESULT: The prompt for the above said problem executed successfully
