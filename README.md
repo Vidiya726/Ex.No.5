@@ -66,6 +66,8 @@ A minimum of four distinct scenarios will be employed. This diversity is essenti
   2. Factual Query (Convergent/Knowledge Task): This task (e.g., explaining a scientific concept) tests accuracy and the model's ability to efficiently retrieve and synthesize specific, verifiable information          when given clear boundaries.
   3. Content Transformation/Summarization (Analytical Task): This task requires the model to process external information (e.g., a provided paragraph) and restructure it. It tests the adherence to explicit             constraints like length or target audience.
   4. Advice/Recommendation (Judgmental/Contextual Task): This task requires empathy and judgment (e.g., providing career advice). It tests the prompt's ability to enforce a specific persona/role and maintain an appropriate, helpful tone.
+<img width="562" height="488" alt="image" src="https://github.com/user-attachments/assets/8fbb8e77-42d1-4b13-8b52-2c767b9ea495" />
+
 
 ### 2.3 Prompt Design and Construction
 For each of the four scenarios, two corresponding prompts will be created, ensuring they target the exact same output goal:
@@ -79,7 +81,6 @@ The data collection will follow a strict, systematic process:
   1. Preparation: Define the four test scenarios and write the eight corresponding prompts (four Naïve, four Basic).
   2. Input & Collection: Execute the experiment by inputting the prompts into ChatGPT, ensuring the correct prompt type is used for each new chat session.
   3. Data Capture: The entire generated response for each of the eight inputs will be copied and saved verbatim to prevent post-hoc editing bias.
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/7d2ef15d-a45a-400e-a242-076a5bcd409e" />
 
 ### 2.5 Evaluation Metrics and Scoring
 The responses will be evaluated qualitatively and assigned a quantitative score using a 5-point Likert scale (1 = Poor, 5 = Excellent) for each of the three defined metrics:
@@ -109,10 +110,10 @@ To provide context beyond the numerical scores, this sub-section will offer a br
    Scenario 4: Advice/Recommendation: Evaluate the use of the specified persona/role. Show the difference in tone and practical utility when the model was explicitly instructed to act as an expert versus a          general source.
 
 This structure ensures that the data is first summarized quantitatively, then immediately supported by key qualitative examples, setting the stage for the final discussion and analysis
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/38e6c580-889f-4a87-9e77-5744c17b2123" />
 
 # IV. Comparative Analysis and Discussion
 This section moves beyond data presentation to interpret the findings documented in the Comprehensive Results Table (Section 3.1) and the Scenario-by-Scenario Comparison (Section 3.2). The analysis will focus on how prompt clarity consistently influenced the LLM's performance across the defined metrics.
+<img width="497" height="510" alt="image" src="https://github.com/user-attachments/assets/94009f30-d092-41d7-8150-eefa30568d27" />
 
 ### 4.1 Analysis by Metric: Impact of Prompt Clarity
 The core discussion will be framed around how the introduction of structured elements (Role, Task, Context, Constraints) in the Basic Prompt affected each measured outcome:
@@ -138,6 +139,7 @@ This sub-section will address the broader patterns observed across all four test
 
 ### 4.3 The Value of Structure: A Core Insight
 Conclude the discussion with a definitive statement on the experiment's main takeaway. The primary reason structured prompts succeed is that they effectively manage the model's vast potential by reducing ambiguity and enforcing precision. A well-structured prompt serves as a precise algorithm for the LLM, transforming a broad request into a targeted instruction set, which is necessary for optimal performance.
+<img width="482" height="498" alt="image" src="https://github.com/user-attachments/assets/4651e830-af1d-474a-96ac-e3b5ce32375c" />
 
 
 # V. Conclusion and Recommendations
