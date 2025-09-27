@@ -6,6 +6,7 @@
 To test and compare how different pattern models respond to various prompts (broad or unstructured) versus basic prompts (clearer and more refined) across multiple scenarios.  Analyze the quality, accuracy, and depth of the generated responses 
 
 ### AI Tools Required: 
+he primary AI tool required for this comparative analysis is ChatGPT. To ensure consistency and enable a fair comparison across all test scenarios, the experiment should be conducted using the same version of the model (e.g., GPT-4) throughout the entire testing process.
 
 # Explanation: 
 Define the Two Prompt Types:
@@ -137,7 +138,7 @@ This sub-section will address the broader patterns observed across all four test
 
 ### 4.3 The Value of Structure: A Core Insight
 Conclude the discussion with a definitive statement on the experiment's main takeaway. The primary reason structured prompts succeed is that they effectively manage the model's vast potential by reducing ambiguity and enforcing precision. A well-structured prompt serves as a precise algorithm for the LLM, transforming a broad request into a targeted instruction set, which is necessary for optimal performance.
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/0f76a5e0-7a76-4a59-ab72-0944698113e6" />
+
 
 # V. Conclusion and Recommendations
 ### 5.1 Summary of Findings
